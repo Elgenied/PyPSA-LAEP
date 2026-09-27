@@ -8,10 +8,7 @@ alternative fabric states. PyPSA brings those choices into a shared investment a
 operational problem. District-heating candidates connect the spatial network work
 to individual heating decisions.
 
-This **private research showcase** presents the most developed saved results so far.
-It is written to be read as a short research story, with executed notebooks, maps,
-plain-language interpretation and the data behind each figure. It is not a new model
-run or a validated delivery plan.
+
 
 ![PyPSA-LAEP framework architecture](assets/overview.svg)
 
