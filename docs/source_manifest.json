@@ -1,0 +1,324 @@
+{
+  "packaged_on": "2026-09-27",
+  "notice": "Latest EnerMap and earlier PyPSA results are separate releases, not a rerun.",
+  "sources": [
+    {
+      "source": "enermap-current/pypsa_interface/cluster_summary.csv",
+      "sha256": "96b963acb3a73e8570445662d0f1ad761ef862c28814d570acce242683897604",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/cluster_summary.csv"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/cluster_annual_totals.csv",
+      "sha256": "08d3434aa572d2f485d2c8be314f6621ca3d96603fe11d6210767cd964ba5245",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/cluster_annual_totals.csv"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/heat_pump_cop_hourly.csv",
+      "sha256": "8420a06b73a81a03e055381cfab8437cf47c211c91bd2bfb7c6c33eafb11caec",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/heat_pump_cop_hourly.csv"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/checks.json",
+      "sha256": "44345096ca08ce05d379c3b430a1771f11b5c61deee6e5c68c318f8a2b29b95a",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/checks.json"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/pypsa_import_check.json",
+      "sha256": "c5d24bf0f793e3881eff79ad4d543ea2ef915380815f5224a52a900063ce3078",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/pypsa_import_check.json"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/README_pypsa_interface.md",
+      "sha256": "c0dae510f937a8f6134bbbb68d12ea17cd4ad1de313525f6c002b32482ae3ac5",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/README_pypsa_interface.md"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/cases.csv",
+      "sha256": "d5674b5cf654930134f09c553e6f8ef54164b4c3b7348f3f7cd94ebea9b23470",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/cases.csv"
+    },
+    {
+      "source": "enermap-current/completion.json",
+      "sha256": "2c4938a5a021c0c3a13cc31a95e0a5daf0c6795d246bf466b48ec34ff09ba570",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/completion.json"
+    },
+    {
+      "source": "enermap-current/baseline/summary.json",
+      "sha256": "b907759a298e40f5ab14bc1f7a9d59ef94a5cceae1a1f9c0c95dc236a4f7dbf4",
+      "transform": "Unmodified source snapshot",
+      "output": "data/enermap/baseline_summary.json"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/demand_profiles.parquet",
+      "sha256": "6fcac90087a590589285a4fde0356721fe5bea7393185f9a1e150c5f1e5992ed",
+      "transform": "Sum across clusters for each package and timestamp; float64 accumulation; original kW units",
+      "output": "data/enermap/hourly_totals.csv"
+    },
+    {
+      "source": "enermap-current/pypsa_interface/building_cluster_map.csv",
+      "sha256": "12ac2eefbad95644c867ae78aee233df1214c2023f7950996f2ecc3d0ed4e267",
+      "transform": "Dwelling-weighted zone centroids. Individual building IDs and locations excluded",
+      "output": "data/enermap/zone_centroids.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/westborough_2035_adder60_td/summary.csv",
+      "sha256": "dd021c8bdb7ee07d64b3d814188df2f9b1ef961a079ec76f5563ec962a12387f",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/westborough/summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/westborough_2035_adder60_td/replay_report.csv",
+      "sha256": "5654256b8689502a1f0c883816e9a727f534775e905cfa246bf9aaf4936473e0",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/westborough/replay_report.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/westborough_2035_adder60_td/replay_zone_table.csv",
+      "sha256": "f0e6b5c572ec5a86313eef08607c06cca0af8d604b82b1b233a50fa10837fb57",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/westborough/replay_zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/westborough_2035_adder60_td/zone_table.csv",
+      "sha256": "9b01a3ab551786ad7d28f5b427ed355d5f194dcb08645fefa5d492166fea066c",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/westborough/zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/westborough_2035_adder60_td/provenance.json",
+      "sha256": "95e7de48800b3cec1aed7a9be05cad4d654400d3f48fd77f570f1bfc20bb8ae7",
+      "transform": "Selected provenance fields; local absolute paths redacted",
+      "output": "data/residential/westborough/assumptions.json"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/westborough_2035_adder60_td/option_uptake.csv",
+      "sha256": "0f726a4695ad9b52b38aeeb64edf344c63110b9ad38173086c3743d7ac6ccc3e",
+      "transform": "Dwelling-equivalent adoption summed by zone, package and system",
+      "output": "data/residential/westborough/uptake.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_retrofit_fixed_td/summary.csv",
+      "sha256": "6749ee87283f768b8a4601c39df77fdad19727b30fd398e2e71b01bb38d2571e",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_fixed/summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_retrofit_fixed_td/replay_report.csv",
+      "sha256": "2f96ffa356252bff6d24d30c3ad37f5fa8a5475ceca2fdb592be854df4a75e44",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_fixed/replay_report.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_retrofit_fixed_td/replay_zone_table.csv",
+      "sha256": "91a4e2f100227487a802ac040b85700f03520b347fbfe4c23b7bf2d97b43d9fa",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_fixed/replay_zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_retrofit_fixed_td/zone_table.csv",
+      "sha256": "aa0d44047a238b348342faf7b63c824f8feeeec5dbf9e7a93a269ba0dd78c098",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_fixed/zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_retrofit_fixed_td/provenance.json",
+      "sha256": "451c3e34427158b9f7eee9d5fec80306cca9a31eec628b951045dfa0815af7c6",
+      "transform": "Selected provenance fields; local absolute paths redacted",
+      "output": "data/residential/clean100_fixed/assumptions.json"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_td/summary.csv",
+      "sha256": "6117618aa7767187386394e8372dd5d5da70c3656fe1cc2b8099d03d62e52676",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_retrofit/summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_td/replay_report.csv",
+      "sha256": "2f96ffa356252bff6d24d30c3ad37f5fa8a5475ceca2fdb592be854df4a75e44",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_retrofit/replay_report.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_td/replay_zone_table.csv",
+      "sha256": "91a4e2f100227487a802ac040b85700f03520b347fbfe4c23b7bf2d97b43d9fa",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_retrofit/replay_zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_td/zone_table.csv",
+      "sha256": "b8f7a761b6442d50627bdeae66cbf4656dbd70de7aeb7be2b8e096d9d9d0e870",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/clean100_retrofit/zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/exp_clean100_td/provenance.json",
+      "sha256": "e6b42536ce5186aef9c99ab7d92d9aff8fea1a44e19481e07dff0fc76240f376",
+      "transform": "Selected provenance fields; local absolute paths redacted",
+      "output": "data/residential/clean100_retrofit/assumptions.json"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/guildford_td/summary.csv",
+      "sha256": "c26de7ad1be90812908c62aa77b4416494b1561913185537d11ca9d431df8949",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/guildford/summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/guildford_td/zone_table.csv",
+      "sha256": "9f03c79a92b5eb4bf44112d3108c10b0ee9b04827eaf87170c6a970f9a1806ad",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/guildford/zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_A_individual_td/summary.csv",
+      "sha256": "b0f827a2dd1279dcad5e8b8617d441e29bdc0d12395db4a51303c0b51f1b9881",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/A/summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_A_individual_td/replay_report.csv",
+      "sha256": "2f96ffa356252bff6d24d30c3ad37f5fa8a5475ceca2fdb592be854df4a75e44",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/A/replay_report.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_A_individual_td/replay_zone_table.csv",
+      "sha256": "91a4e2f100227487a802ac040b85700f03520b347fbfe4c23b7bf2d97b43d9fa",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/A/replay_zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_A_individual_td/zone_table.csv",
+      "sha256": "d76121b4feda5cea3e90e5c5f04ebbb1e0413519205cd064902962f579870b02",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/A/zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_A_individual_td/provenance.json",
+      "sha256": "84282cf464165fe866aa469d9336f8ff7fd2a3eea217ded0567cc6a0bf5f6dfb",
+      "transform": "Selected provenance fields; local absolute paths redacted",
+      "output": "data/dh/A/assumptions.json"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_B_dh_hp_td/summary.csv",
+      "sha256": "471e1ba1704a310a29847040eea164544f36f3d37788c08725b359de868d0187",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/B/summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_B_dh_hp_td/replay_report.csv",
+      "sha256": "2f96ffa356252bff6d24d30c3ad37f5fa8a5475ceca2fdb592be854df4a75e44",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/B/replay_report.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_B_dh_hp_td/replay_zone_table.csv",
+      "sha256": "91a4e2f100227487a802ac040b85700f03520b347fbfe4c23b7bf2d97b43d9fa",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/B/replay_zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_B_dh_hp_td/zone_table.csv",
+      "sha256": "80f26a716132c62c1ff9b7b86e42eb94562ede015f4a867a1a4751863c715e46",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/B/zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_B_dh_hp_td/provenance.json",
+      "sha256": "c7407a9a13192d065d5ebe25c65cd4571aa851bdd42dadcec2061188ca7969e4",
+      "transform": "Selected provenance fields; local absolute paths redacted",
+      "output": "data/dh/B/assumptions.json"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_C_dh_hp_chp_td/summary.csv",
+      "sha256": "82859cbab6d6736076ea230ba2af9bb2c68975ca0f2a135338151f6f7ec80eb0",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/C/summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_C_dh_hp_chp_td/replay_report.csv",
+      "sha256": "455fc39375c09b905dcd4b0a1776d87a1372cc81e48332f7340fb90606bd5172",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/C/replay_report.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_C_dh_hp_chp_td/replay_zone_table.csv",
+      "sha256": "10e8b1078884f375dc9502d1252f093550b7cbf330052493b01defc9b9db2ae5",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/C/replay_zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_C_dh_hp_chp_td/zone_table.csv",
+      "sha256": "48164f85f08deb6e34032c3618fa1635431283f2b0648818ea349a87b3d5e0f2",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/C/zone_table.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_C_dh_hp_chp_td/provenance.json",
+      "sha256": "e7bb60870a942e556d71fdbfa8ea13c579066a802744d64c2014b350fec03534",
+      "transform": "Selected provenance fields; local absolute paths redacted",
+      "output": "data/dh/C/assumptions.json"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_C_dh_hp_chp_td/option_uptake.csv",
+      "sha256": "12f26fbed3ab975c521cfd8fcfa7aa2af59b622a164bb17f1e7009a32c1655d3",
+      "transform": "Dwelling-equivalent adoption summed by zone, package and system",
+      "output": "data/dh/C/uptake.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/results/dh4_C_dh_hp_chp_td/replay_schedules.parquet",
+      "sha256": "d2516559058c6f860831e751a35b2bea673bd2130d002caf91505c2b67de47dc",
+      "transform": "Sum option heat-delivery schedules by system, same full-year replay",
+      "output": "data/dh/C/hourly_heat.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/guildford_td/ward_kpis.csv",
+      "sha256": "2443aff2116573031fa101f92caf1fe03483c0ea8596efca295c987df81360d8",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/guildford/ward_kpis.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/results/guildford_td/borough_import_hourly.csv",
+      "sha256": "bce222d5fe69ab730f6920a4eff2303c4369653d4145f1ba29ba777046d65df0",
+      "transform": "Unmodified source snapshot",
+      "output": "data/residential/guildford/borough_import_hourly.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/data/dh/zones/zone_4_curve.csv",
+      "sha256": "615a569e5fe297598834de7f9ae8fd1103c7bd8ba7eb1d538e3e6881e7868985",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/zone_4_curve.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/data/dh/zones/zones_summary.csv",
+      "sha256": "301555afe23c3a47adb663c9072cef7e3085ae1421f47361edfa235a4f145e19",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/zones_summary.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/data/dh/zones/zone_members_check.csv",
+      "sha256": "fbc8809fc630e392830fa9d2f7b904daf180ac288e5bce9dc1bd3a8d5cfcfd04",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/zone_members_check.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep/data/dh/guildford_dh_screening.csv",
+      "sha256": "28c3043150046c2c48db974211ed5333023f1dde2e2aeb9395e9da77559580eb",
+      "transform": "Selected screening network columns only; source EPSG:27700; not final construction routes",
+      "output": "data/dh/screening_routes.csv"
+    },
+    {
+      "source": "pypsa-saved/pypsa-laep-dev/resources/dh4_C_dh_hp_chp_td/dh_candidates.csv",
+      "sha256": "7d5a764c34e1af6331b391714ad2deaab85520a4ccd2ecc64c80cd1de527ed66",
+      "transform": "Unmodified source snapshot",
+      "output": "data/dh/candidate.csv"
+    }
+  ]
+}

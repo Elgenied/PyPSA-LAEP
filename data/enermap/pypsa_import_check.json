@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "stored_parquet_rows": 62704080,
+  "all_package_totals_reconciled": true,
+  "pypsa_version": "1.0.6",
+  "example_cluster": "C.Det.2|Wcav|LSOA:E01030442",
+  "snapshots": 8760,
+  "loads": 3,
+  "COP_links": 2,
+  "optimization_run": false,
+  "example_boundary": "Useful DHW demonstration. Add declared DHW losses/technology split for a full baseline fuel reconstruction; do not interpret this example as calibrated dispatch."
+}

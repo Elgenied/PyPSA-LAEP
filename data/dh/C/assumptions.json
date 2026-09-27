@@ -1,0 +1,498 @@
+{
+  "scenario": "dh4_C_dh_hp_chp_td",
+  "generated": "2026-09-07T02:04:25",
+  "model_version": "0.2.0",
+  "config_hash": "a1943083e40a0b4c",
+  "config": {
+    "run": {
+      "results_dir": "results",
+      "model_version": "0.2.0"
+    },
+    "area": {
+      "wards": [
+        "Westborough"
+      ],
+      "complete_zones": true,
+      "zones": [
+        "SUB:SPN-R000000852116-000-001Z",
+        "SUB:SPN-S000000171733",
+        "SUB:SPN-S000000171734",
+        "SUB:SPN-S000000171745",
+        "SUB:SPN-S000000171749",
+        "SUB:SPN-S000000171774",
+        "SUB:SPN-S000000171775",
+        "SUB:SPN-S000000171780",
+        "SUB:SPN-S000000171781",
+        "SUB:SPN-S000000171832",
+        "SUB:SPN-S000000171833",
+        "SUB:SPN-S000000173197",
+        "SUB:SPN-S000000174785",
+        "SUB:SPN-S000000175224",
+        "SUB:SPN-S000000175257"
+      ],
+      "gsp_name": "WWEY_1"
+    },
+    "planning_year": 2035,
+    "snapshots": {
+      "start": "2021-01-01 00:00",
+      "periods": 8760,
+      "freq": "1h"
+    },
+    "time_aggregation": {
+      "enabled": true,
+      "method": "typical_days",
+      "n_periods": 12,
+      "nh": 3,
+      "seed": 0
+    },
+    "enermap": {
+      "source_dir": "[local source path omitted]/pypsa_interface",
+      "interface_dir": "data/enermap_interface",
+      "case_id": "GF2021_TMYx_CHAP_cal08",
+      "transformers_csv": "data/enermap/substations.csv",
+      "accepted_assignment_methods": [
+        "spatial_inference_nearest_substation"
+      ]
+    },
+    "demand": {
+      "heat_pump_household_profiles": false,
+      "dhw_distribution_loss": 0.05,
+      "min_cluster_peak_mw": 0.0005
+    },
+    "weather": {
+      "epw": "data/weather/tmyx_farnborough.epw",
+      "soil_temp_c": 10.0,
+      "latitude": 51.28,
+      "longitude": -0.77
+    },
+    "cop": {
+      "family": "ruhnau",
+      "min_delta_t": 15.0,
+      "dhw_flow_temp_c": 55.0,
+      "design_cop": "min"
+    },
+    "pv": {
+      "tilt_deg": 35,
+      "azimuth_deg": 180,
+      "system_loss": 0.14,
+      "ward_potential_csv": "data/enermap/ward_potential.csv",
+      "capex_gbp_per_kw": 1647,
+      "lifetime": 40,
+      "fom_pct": 1.2737,
+      "price_year": 2026
+    },
+    "boundary": {
+      "source": "pypsa_gb_weeks",
+      "price_csv": "data/boundary/price_flat.csv",
+      "carbon_csv": "data/boundary/carbon_flat.csv",
+      "pypsa_gb_weeks_csv": "data/boundary/pypsa_gb/guildford_gsp_hourly.csv",
+      "pypsa_gb_scenario": "FES24 HT 2035",
+      "carbon_column": "ci_local",
+      "winter_months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "pypsa_gb_solved_nc": null,
+      "gsp_headroom_mw": 40.0,
+      "price_adder_gbp_per_mwh": 60.0,
+      "embedded_carbon_gbp_per_t": 85.0,
+      "price_year": 2022,
+      "export_allowed": false,
+      "export_price_gbp_per_mwh": 0.0
+    },
+    "fuels": {
+      "gas": {
+        "price_gbp_per_mwh": 26.26,
+        "co2_t_per_mwh": 0.18231,
+        "price_year": 2022
+      },
+      "oil": {
+        "price_gbp_per_mwh": 55.0,
+        "co2_t_per_mwh": 0.24677,
+        "price_year": 2022
+      },
+      "lpg": {
+        "price_gbp_per_mwh": 70.0,
+        "co2_t_per_mwh": 0.21449,
+        "price_year": 2022
+      }
+    },
+    "retrofit": {
+      "packages_allowed": [
+        "R0",
+        "R1",
+        "R2"
+      ],
+      "measure_costs": {
+        "cavity_fill": {
+          "value": 14,
+          "unit": "m2",
+          "lifetime": 40,
+          "price_year": 2021
+        },
+        "solid_wall_iwi": {
+          "value": 90,
+          "unit": "m2",
+          "lifetime": 36,
+          "price_year": 2021
+        },
+        "loft_topup": {
+          "value": 18,
+          "unit": "m2",
+          "lifetime": 40,
+          "price_year": 2021
+        },
+        "flat_roof": {
+          "value": 95,
+          "unit": "m2",
+          "lifetime": 30,
+          "price_year": 2021
+        },
+        "glazing_upgrade": {
+          "value": 420,
+          "unit": "m2",
+          "lifetime": 30,
+          "price_year": 2021
+        },
+        "draught_proofing": {
+          "value": 300,
+          "unit": "dwelling",
+          "lifetime": 15,
+          "price_year": 2021
+        },
+        "shared_enabling_works": {
+          "value": 1500,
+          "unit": "building",
+          "lifetime": 40,
+          "price_year": 2021
+        }
+      }
+    },
+    "heating_capacity": {
+      "tie_to_stock": true,
+      "sizing_factor": 1.0,
+      "design_peak": "coincident"
+    },
+    "flexibility": {
+      "enabled": true,
+      "participation": 1.0,
+      "delta_t_window_k": 3.0,
+      "r1_parameters": "baseline",
+      "cost_gbp_per_dwelling_yr": 0.0,
+      "dhw_cylinder": {
+        "enabled": true,
+        "capex_gbp_per_kwh": 180,
+        "lifetime": 20,
+        "standing_loss_per_h": 0.01,
+        "max_kwh_per_dwelling": 10.0,
+        "price_year": 2019
+      }
+    },
+    "network": {
+      "transformer_efficiency": 0.985,
+      "reinforcement_allowed": true,
+      "reinforcement_cost_gbp_per_kw": 160,
+      "reinforcement_lifetime": 45,
+      "reinforcement_max_factor": 5.0,
+      "reinforcement_price_year": 2022,
+      "modes": [
+        "economic"
+      ],
+      "prohibitive_cost_factor": 1000,
+      "background_load_share_of_rating": 0.0
+    },
+    "transport": {
+      "enabled": false,
+      "ev_per_dwelling": 0.3,
+      "km_per_year": 10000,
+      "kwh_per_km": 0.18,
+      "charger_efficiency": 0.9,
+      "home_charge_share": 0.7,
+      "charger_kw": 7.0,
+      "battery_kwh": 60.0,
+      "smart_share": 0.6,
+      "availability_profile": "data/transport/home_availability.csv",
+      "unmanaged_profile": "data/transport/unmanaged_charging.csv"
+    },
+    "heat_network": {
+      "enabled": true,
+      "members_csv": "data/dh/zones/zone_members.csv",
+      "candidates": [
+        {
+          "name": "zone_4",
+          "cost_table_csv": "data/dh/zones/zone_4_curve.csv",
+          "layout_share": 1.0,
+          "connection_bus": "gsp",
+          "connection_capacity_mw": 5.0
+        }
+      ],
+      "eur_to_gbp": 0.86,
+      "loss_derating": 2.0,
+      "price_year": 2022,
+      "plants": [
+        {
+          "name": "hp",
+          "enabled": true,
+          "type": "heat_pump",
+          "source": "air",
+          "capex_gbp_per_kw": 700,
+          "lifetime": 25,
+          "fom_pct": 2.0,
+          "price_year": 2022
+        },
+        {
+          "name": "chp",
+          "enabled": true,
+          "type": "chp",
+          "fuel": "gas",
+          "efficiency_el": 0.35,
+          "efficiency_th": 0.45,
+          "capex_gbp_per_kw_el": 1200,
+          "lifetime": 20,
+          "fom_pct": 4.0,
+          "vom_gbp_per_mwh_fuel": 2.0,
+          "price_year": 2022
+        }
+      ],
+      "connection_gbp_per_dwelling": 4500,
+      "connection_lifetime": 40
+    },
+    "replay": {
+      "enabled": false,
+      "zones": null,
+      "n_zones": 3,
+      "solver": null
+    },
+    "options": {
+      "stock_limit_across_packages": true
+    },
+    "policy": {
+      "min_clean_heat_share": null,
+      "min_heat_reduction": null,
+      "carbon_cap_kt": 2.199,
+      "hp_dwellings": {
+        "min": null,
+        "max": null
+      },
+      "carbon_price_gbp_per_t": 317.6,
+      "carbon_price_year": 2022
+    },
+    "costs": {
+      "discount_rate": 0.035,
+      "price_year": 2026,
+      "normalise_price_year": false,
+      "gdp_deflator_index": {}
+    },
+    "diagnostics": {
+      "load_shedding": true,
+      "shedding_cost_gbp_per_mwh": 10000,
+      "allow_shedding": false,
+      "shedding_tolerance_mwh": 0.001
+    },
+    "solver": {
+      "name": "gurobi",
+      "options": {
+        "Method": 2,
+        "Crossover": 0
+      },
+      "fallback_options": {
+        "Method": 2,
+        "Crossover": 0,
+        "BarHomogeneous": 1,
+        "NumericFocus": 2
+      },
+      "threads": 8
+    },
+    "technologies": {
+      "emitters": {
+        "existing_radiators": {
+          "t_base": 55.0,
+          "slope": 0.0,
+          "cost_gbp_per_dwelling": 0,
+          "lifetime": 30,
+          "price_year": 2019
+        },
+        "upgraded_radiators": {
+          "t_base": 40.0,
+          "slope": 1.0,
+          "cost_gbp_per_dwelling": 1870,
+          "lifetime": 30,
+          "price_year": 2019
+        },
+        "underfloor": {
+          "t_base": 35.0,
+          "slope": 0.5,
+          "cost_gbp_per_dwelling": 6000,
+          "lifetime": 40,
+          "price_year": 2019
+        }
+      },
+      "heating_systems": {
+        "gas_boiler_existing": {
+          "enabled": true,
+          "type": "boiler",
+          "fuel": "gas",
+          "efficiency": 0.87,
+          "clean": false,
+          "emitter": "existing_radiators",
+          "capex_fixed_gbp_per_dwelling": 0,
+          "capex_gbp_per_kw": 0,
+          "fom_gbp_per_kw_yr": 12.98,
+          "lifetime": 15,
+          "price_year": 2019,
+          "flexible": false,
+          "eligibility": {
+            "packages": [
+              "R0",
+              "R1",
+              "R2"
+            ],
+            "max_share": {
+              "existing": [
+                "S.GasBoiler",
+                "S.GasCommunal"
+              ]
+            }
+          }
+        },
+        "other_fossil_existing": {
+          "enabled": true,
+          "type": "boiler",
+          "fuel": "oil",
+          "efficiency": 0.85,
+          "clean": false,
+          "emitter": "existing_radiators",
+          "capex_fixed_gbp_per_dwelling": 0,
+          "capex_gbp_per_kw": 0,
+          "fom_gbp_per_kw_yr": 12.98,
+          "lifetime": 15,
+          "price_year": 2019,
+          "flexible": false,
+          "eligibility": {
+            "packages": [
+              "R0",
+              "R1",
+              "R2"
+            ],
+            "max_share": {
+              "existing": [
+                "S.OilBoiler",
+                "S.LPGBoiler",
+                "S.SolidFuel"
+              ]
+            }
+          }
+        },
+        "ashp": {
+          "enabled": true,
+          "type": "heat_pump",
+          "source": "air",
+          "clean": true,
+          "emitter": "upgraded_radiators",
+          "capex_fixed_gbp_per_dwelling": 4663.25,
+          "capex_gbp_per_kw": 287.2,
+          "fom_gbp_per_kw_yr": 12.98,
+          "lifetime": 15,
+          "price_year": 2019,
+          "flexible": true,
+          "eligibility": {
+            "packages": [
+              "R0",
+              "R1",
+              "R2"
+            ],
+            "max_share": 1.0
+          }
+        },
+        "ashp_underfloor": {
+          "enabled": true,
+          "type": "heat_pump",
+          "source": "air",
+          "clean": true,
+          "emitter": "underfloor",
+          "capex_fixed_gbp_per_dwelling": 4663.25,
+          "capex_gbp_per_kw": 287.2,
+          "fom_gbp_per_kw_yr": 12.98,
+          "lifetime": 15,
+          "price_year": 2019,
+          "flexible": true,
+          "eligibility": {
+            "packages": [
+              "R2"
+            ],
+            "max_share": 1.0
+          }
+        },
+        "gshp": {
+          "enabled": true,
+          "type": "heat_pump",
+          "source": "ground",
+          "clean": true,
+          "emitter": "upgraded_radiators",
+          "capex_fixed_gbp_per_dwelling": 8151.25,
+          "capex_gbp_per_kw": 406.5,
+          "fom_gbp_per_kw_yr": 12.98,
+          "lifetime": 20,
+          "price_year": 2019,
+          "flexible": true,
+          "eligibility": {
+            "packages": [
+              "R0",
+              "R1",
+              "R2"
+            ],
+            "archetype_regex": "^C\\.(Det|Semi|Park)",
+            "max_share": 1.0
+          }
+        },
+        "resistive": {
+          "enabled": true,
+          "type": "resistive",
+          "efficiency": 1.0,
+          "clean": true,
+          "emitter": "existing_radiators",
+          "capex_fixed_gbp_per_dwelling": 235.8,
+          "capex_gbp_per_kw": 117.4,
+          "fom_gbp_per_kw_yr": 12.98,
+          "lifetime": 15,
+          "price_year": 2019,
+          "flexible": true,
+          "eligibility": {
+            "packages": [
+              "R0",
+              "R1",
+              "R2"
+            ],
+            "max_share": 1.0
+          }
+        },
+        "dh_connection": {
+          "enabled": true,
+          "type": "district_heat",
+          "clean": false,
+          "emitter": "existing_radiators",
+          "capex_fixed_gbp_per_dwelling": 0,
+          "capex_gbp_per_kw": 0,
+          "fom_gbp_per_kw_yr": 0,
+          "lifetime": 40,
+          "price_year": 2022,
+          "flexible": false,
+          "eligibility": {
+            "packages": [
+              "R0",
+              "R1",
+              "R2"
+            ],
+            "dh_member": true,
+            "max_share": 1.0
+          }
+        }
+      }
+    },
+    "name": "dh4_C_dh_hp_chp_td"
+  }
+}

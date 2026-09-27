@@ -1,0 +1,16 @@
+metric,aggregated,replay,unit
+zones,3.0,3.0,count
+active_options,28.0,28.0,count
+adoption_sum_check,6.217248937900877e-15,0.0,max |sum_o x - 1| per cluster (replay uses solved x)
+useful_heat_demand_mwh,2473.125020557151,2443.3119948657577,MWh/yr (weighted aggregated vs full-year)
+heat_delivered_mwh,,2475.1306451076734,MWh/yr
+grid_import_mwh,1226.8494429651123,1233.8551002048084,MWh/yr
+gas_mwh,1470.400216185411,1446.9753161293368,MWh/yr fuel input (replayed options)
+unmet_heat_mwh,0.0,9.143918105790198e-12,MWh/yr - must be ~0
+unmet_elec_mwh,0.0,0.0,MWh/yr - must be 0
+fabric_tes_cycled_mwh,222.6336763171985,232.22739806155263,MWh/yr
+cylinder_cycled_mwh,,0.0,MWh/yr
+emissions_t,,280.1327114276974,tCO2/yr (replayed zones)
+operating_cost_gbp,,226310.68430304463,GBP/yr imports + fuels incl. carbon value
+max_zone_utilisation,1.0,0.9999999999979524,peak / (rating + reinforcement)
+hours_above_95pct,274.69053693606986,221.0,"weighted h/yr, all replayed zones"

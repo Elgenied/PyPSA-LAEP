@@ -1,0 +1,21 @@
+metric,aggregated,replay,unit
+zones,15.0,15.0,count
+active_options,281.0,281.0,count
+adoption_sum_check,2.258091269524698e-09,0.0,max |sum_o x - 1| per cluster (replay uses solved x)
+useful_heat_demand_mwh,20724.83098981611,20441.868795597522,MWh/yr (weighted aggregated vs full-year)
+heat_delivered_mwh,,20572.640146311205,MWh/yr
+grid_import_mwh,9025.569431774627,11918.58145267339,MWh/yr
+gas_mwh,10228.532701592982,10086.882374022935,MWh/yr fuel input (replayed options)
+unmet_heat_mwh,0.0,0.0,MWh/yr - must be ~0
+unmet_elec_mwh,0.0,0.07320949535575039,MWh/yr - must be 0
+fabric_tes_cycled_mwh,787.876383449003,840.7638992369812,MWh/yr
+cylinder_cycled_mwh,,599.4206491062496,MWh/yr
+emissions_t,,1998.1652865088352,tCO2/yr (replayed zones)
+operating_cost_gbp,,1864827.0172155406,GBP/yr imports + fuels incl. carbon value
+max_zone_utilisation,1.0,1.0000000000010516,peak / (rating + reinforcement)
+hours_above_95pct,665.9644981362454,571.0,"weighted h/yr, all replayed zones"
+dh_heat_from_hp_mwh,,8181.2252580954555,MWh/yr or ratio (joint DH replay)
+dh_heat_from_chp_mwh,,0.0,MWh/yr or ratio (joint DH replay)
+chp_fuel_mwh,,0.0,MWh/yr or ratio (joint DH replay)
+dh_delivered_mwh,,8088.1472725977765,MWh/yr or ratio (joint DH replay)
+dh_pipe_peak_utilisation,,0.6234472487403028,MWh/yr or ratio (joint DH replay)
