@@ -1,0 +1,101 @@
+area,item,million_gbp_per_year
+SHALFORD,fabric packages,0.14413557433006335
+SHALFORD,"heating systems, per home",0.832024565022111
+SHALFORD,"heating systems, per kW",0.6183664235489841
+SHALFORD,hot-water heat batteries,0.00015372836826910057
+SHALFORD,rooftop PV,0.5448605128249542
+SHALFORD,batteries,7.58072474534272e-09
+SHALFORD,secondary substations,0.00030027344118580484
+SHALFORD,primary substations,0.00275858100904974
+SHALFORD,"primary substations, built beforehand",0.0
+SHALFORD,heat network,0.0
+SHALFORD,electricity,3.0667136723703354
+SHALFORD,"electricity, carbon value",0.09786414475100978
+SHALFORD,electricity sold,0.0
+SHALFORD,"electricity sold, carbon value",0.0
+SHALFORD,fuels,7.173995829438664e-10
+SHALFORD,"fuels, carbon value",1.581821167789765e-09
+SHALFORD,other,1.1064990041777491e-06
+SHALFORD,non-residential fuel,0.010088088747572829
+SHALFORD,"non-residential fuel, carbon value",0.022243604126406368
+SHALFORD,non-residential heat pumps,0.0921277926703904
+GUILDFORD 33/6.6KV,fabric packages,0.09719993915070611
+GUILDFORD 33/6.6KV,"heating systems, per home",0.9928053839078371
+GUILDFORD 33/6.6KV,"heating systems, per kW",0.4598720885165127
+GUILDFORD 33/6.6KV,hot-water heat batteries,0.00039954865541321475
+GUILDFORD 33/6.6KV,rooftop PV,0.6668145960854515
+GUILDFORD 33/6.6KV,batteries,1.1747455370680407e-08
+GUILDFORD 33/6.6KV,secondary substations,0.0008548580719154818
+GUILDFORD 33/6.6KV,primary substations,1.7006394887334392e-10
+GUILDFORD 33/6.6KV,"primary substations, built beforehand",0.0
+GUILDFORD 33/6.6KV,heat network,0.0
+GUILDFORD 33/6.6KV,electricity,3.2570846856015123
+GUILDFORD 33/6.6KV,"electricity, carbon value",0.10543398153682217
+GUILDFORD 33/6.6KV,electricity sold,0.0
+GUILDFORD 33/6.6KV,"electricity sold, carbon value",0.0
+GUILDFORD 33/6.6KV,fuels,3.325377495022693e-08
+GUILDFORD 33/6.6KV,"fuels, carbon value",7.332249192191382e-08
+GUILDFORD 33/6.6KV,other,2.3600287809967994e-06
+GUILDFORD 33/6.6KV,non-residential fuel,0.01741971926697288
+GUILDFORD 33/6.6KV,"non-residential fuel, carbon value",0.03840939042699292
+GUILDFORD 33/6.6KV,non-residential heat pumps,0.1280875649419876
+MERROW,fabric packages,0.5757562888332624
+MERROW,"heating systems, per home",4.396289665129747
+MERROW,"heating systems, per kW",2.7092301205763993
+MERROW,hot-water heat batteries,0.0006936812902710671
+MERROW,rooftop PV,1.7336759404966906
+MERROW,batteries,2.3317513221144507e-07
+MERROW,secondary substations,0.0034512978404716236
+MERROW,primary substations,2.882806558066434e-09
+MERROW,"primary substations, built beforehand",0.0
+MERROW,heat network,0.0
+MERROW,electricity,9.956001295082942
+MERROW,"electricity, carbon value",0.2960994521946257
+MERROW,electricity sold,0.0
+MERROW,"electricity sold, carbon value",0.0
+MERROW,fuels,1.5554823542344339e-06
+MERROW,"fuels, carbon value",3.4297412105465486e-06
+MERROW,other,1.6141933426260947e-05
+MERROW,non-residential fuel,0.018945827102423395
+MERROW,"non-residential fuel, carbon value",0.0417743626626047
+MERROW,non-residential heat pumps,0.170959165047787
+GUILDFORD B,fabric packages,0.45892165413547376
+GUILDFORD B,"heating systems, per home",4.141184659125994
+GUILDFORD B,"heating systems, per kW",1.9379693233155235
+GUILDFORD B,hot-water heat batteries,0.0006670067074388734
+GUILDFORD B,rooftop PV,1.7369209036432545
+GUILDFORD B,batteries,3.901066066430167e-09
+GUILDFORD B,secondary substations,0.0012937062000648258
+GUILDFORD B,primary substations,0.014765618456300016
+GUILDFORD B,"primary substations, built beforehand",0.0
+GUILDFORD B,heat network,0.0
+GUILDFORD B,electricity,9.651880292956271
+GUILDFORD B,"electricity, carbon value",0.349707020774146
+GUILDFORD B,electricity sold,0.0
+GUILDFORD B,"electricity sold, carbon value",0.0
+GUILDFORD B,fuels,9.628508341716381e-09
+GUILDFORD B,"fuels, carbon value",2.1114378858767266e-08
+GUILDFORD B,other,2.8697760589420796e-06
+GUILDFORD B,non-residential fuel,0.03003464791540844
+GUILDFORD B,"non-residential fuel, carbon value",0.06622451834269216
+GUILDFORD B,non-residential heat pumps,0.2860032996573157
+GUILDFORD A,fabric packages,0.30066416015350533
+GUILDFORD A,"heating systems, per home",2.2880851281480243
+GUILDFORD A,"heating systems, per kW",1.2668187535427884
+GUILDFORD A,hot-water heat batteries,0.0052492369615795564
+GUILDFORD A,rooftop PV,1.6614771035909863
+GUILDFORD A,batteries,9.266825993501013e-09
+GUILDFORD A,secondary substations,8.91425255121968e-05
+GUILDFORD A,primary substations,2.5354925785055994e-10
+GUILDFORD A,"primary substations, built beforehand",0.0
+GUILDFORD A,heat network,0.0
+GUILDFORD A,electricity,8.151953681473627
+GUILDFORD A,"electricity, carbon value",0.2768020672286225
+GUILDFORD A,electricity sold,0.0
+GUILDFORD A,"electricity sold, carbon value",0.0
+GUILDFORD A,fuels,1.3153443173233692e-08
+GUILDFORD A,"fuels, carbon value",2.849631245823117e-08
+GUILDFORD A,other,3.734033826738596e-06
+GUILDFORD A,non-residential fuel,0.06646134735587006
+GUILDFORD A,"non-residential fuel, carbon value",0.14654311012551785
+GUILDFORD A,non-residential heat pumps,0.4432288687132403

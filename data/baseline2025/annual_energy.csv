@@ -1,0 +1,61 @@
+area,sector,item,gwh
+MERROW,electricity,household electricity,37.517189681947144
+MERROW,electricity,non-residential,11.893538839463288
+MERROW,electricity,heat pumps,0.4520082598785821
+MERROW,electricity,direct electric,9.505292010850937
+MERROW,electricity,electric vehicles,1.6665100953110457
+MERROW,electricity,grid import,61.96399887167747
+MERROW,heat,gas boiler kept,104.64407915264522
+MERROW,heat,communal gas kept,1.2441381877308169
+MERROW,heat,oil/LPG kept,1.2807715722068092
+MERROW,heat,direct electric kept,9.505292010850939
+MERROW,heat,ASHP kept,1.7121592565049186
+MERROW,heat,useful heat demand,118.38644023738709
+GUILDFORD B,electricity,household electricity,31.637120169069778
+GUILDFORD B,electricity,non-residential,23.925107683540986
+GUILDFORD B,electricity,heat pumps,0.1224140110304659
+GUILDFORD B,electricity,direct electric,4.398334219474716
+GUILDFORD B,electricity,electric vehicles,1.1982113885149814
+GUILDFORD B,electricity,grid import,62.214403524711294
+GUILDFORD B,heat,gas boiler kept,79.74074662733756
+GUILDFORD B,heat,communal gas kept,1.0917474640171327
+GUILDFORD B,heat,oil/LPG kept,0.34799709830612957
+GUILDFORD B,heat,direct electric kept,4.398334219474715
+GUILDFORD B,heat,ASHP kept,0.45952188763508717
+GUILDFORD B,heat,useful heat demand,86.03834734555534
+GUILDFORD A,electricity,household electricity,19.43041008481802
+GUILDFORD A,electricity,non-residential,35.169535725104446
+GUILDFORD A,electricity,heat pumps,0.23450756218174637
+GUILDFORD A,electricity,direct electric,4.059198592070634
+GUILDFORD A,electricity,electric vehicles,1.126033847073406
+GUILDFORD A,electricity,grid import,60.93369123752802
+GUILDFORD A,heat,gas boiler kept,48.765415322853656
+GUILDFORD A,heat,communal gas kept,1.1348074551147065
+GUILDFORD A,heat,oil/LPG kept,0.4939749013532886
+GUILDFORD A,heat,direct electric kept,4.059198592070634
+GUILDFORD A,heat,ASHP kept,0.8819686537893872
+GUILDFORD A,heat,useful heat demand,55.335364925181665
+SHALFORD,electricity,household electricity,7.933719637317855
+SHALFORD,electricity,non-residential,11.195137638935488
+SHALFORD,electricity,heat pumps,0.26167286136133816
+SHALFORD,electricity,direct electric,1.3665852181104112
+SHALFORD,electricity,electric vehicles,0.4487433816433046
+SHALFORD,electricity,grid import,21.52879059647576
+SHALFORD,heat,gas boiler kept,23.49773153679569
+SHALFORD,heat,communal gas kept,0.8342755225892163
+SHALFORD,heat,oil/LPG kept,0.47628563876800156
+SHALFORD,heat,direct electric kept,1.3665852181104112
+SHALFORD,heat,ASHP kept,1.0117670387915594
+SHALFORD,heat,useful heat demand,27.18664495505488
+GUILDFORD 33/6.6KV,electricity,household electricity,7.7183690613599385
+GUILDFORD 33/6.6KV,electricity,non-residential,14.604256088571626
+GUILDFORD 33/6.6KV,electricity,heat pumps,0.06880038662561608
+GUILDFORD 33/6.6KV,electricity,direct electric,1.6718306205766054
+GUILDFORD 33/6.6KV,electricity,electric vehicles,0.43714899703802645
+GUILDFORD 33/6.6KV,electricity,grid import,24.873507770813067
+GUILDFORD 33/6.6KV,heat,gas boiler kept,17.480486015741544
+GUILDFORD 33/6.6KV,heat,communal gas kept,0.26193460207952113
+GUILDFORD 33/6.6KV,heat,oil/LPG kept,0.12419753384350213
+GUILDFORD 33/6.6KV,heat,direct electric kept,1.6718306205766054
+GUILDFORD 33/6.6KV,heat,ASHP kept,0.2528808113287815
+GUILDFORD 33/6.6KV,heat,useful heat demand,19.791329616308516

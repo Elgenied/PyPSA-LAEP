@@ -1,110 +1,26 @@
-# PyPSA-LAEP
+# PyPSA LAEP results
 
-### Buildings, heating choices and the local energy system—considered together.
+Explore Guildford's local energy planning results in three notebooks:
 
-PyPSA-LAEP explores how building retrofit, heating technologies and local energy
-infrastructure interact. EnerMap supplies spatially resolved building demand and
-alternative fabric states. PyPSA brings those choices into a shared investment and
-operational problem. District-heating candidates connect the spatial network work
-to individual heating decisions.
+1. [2025 baseline](01-2025-baseline.ipynb)
+2. [2035 without district heating](02-2035-without-DH.ipynb)
+3. [2035 with district heating](03-2035-with-DH.ipynb)
 
+Charts cover demand and supply, dispatch, heating, retrofit, storage, costs, emissions and network capacity. Maps use OpenStreetMap. Change `AREA` and `DAY` in the first cell to explore.
 
-
-![PyPSA-LAEP framework architecture](assets/overview.svg)
-
-## Start here
-
-| Notebook | What you will see | Evidence boundary |
-|---|---|---|
-| [01 · Latest EnerMap handoff](notebooks/01_enermap_latest_handoff.ipynb) | Stock geography, R0/R1/R2 heat demand, hourly patterns, heat-pump COP and accounting checks | **23 Sep 2026**, 57,300 dwellings, 2,386 clusters; new uncalibrated median-archetype release |
-| [02 · Residential whole-system study](notebooks/02_residential_whole_system.ipynb) | Retrofit/heating choices, costs, spatial uptake, network loading, replay and wider Guildford screening | **6 Sep 2026**, Westborough complete-zone case: 2,974 dwellings / 33 zones; hourly replay of **3 zones** |
-| [03 · Guildford district heating](notebooks/03_guildford_district_heating.ipynb) | Street screening, candidate membership, pipe costs, individual versus DH choices, CHP and hourly operation | **6–7 Sep 2026**, candidate zone 4 / Stoughton: 2,534 dwellings / 15 electricity zones; residual replay shortfall disclosed |
-
-**Important:** the September 23 EnerMap data are newer than the saved optimisation
-results. Notebook 01 does not imply that Notebooks 02–03 have been rerun with that
-handoff. They deliberately remain separate dated snapshots.
-
-## A few findings worth opening the notebooks for
-
-In the residential reference case, the model selects fabric measures for about **82%**
-of dwelling equivalents, reducing useful space heat by **28.6%**. It does not choose
-universal electrification: the result depends on existing equipment, fuel and carbon
-prices, network constraints and technology costs.
-
-![Residential fabric and heating choices](assets/residential_choices.png)
-
-For the DH candidate, approximately **831 dwelling equivalents** connect to a
-**4.96 MWth central heat pump**. Adding CHP as an option does not lead to CHP investment.
-Once committed pipes are included, the central-HP DH case costs about **1.77% more**
-than individual-only heating but emits about **9.17% less** under the shared carbon cap.
-
-![District-heating costs and emissions](assets/dh_cost_carbon.png)
-
-These are model-dependent results, not procurement prices or recommendations for
-particular households. The DH replay still has **73.2 kWh of unmet electricity**,
-above its **1 kWh** feasibility tolerance. The wider town aggregation also exceeds
-the assumed shared GSP headroom. Both limitations are shown, not hidden.
-
-## Read without running a model
-
-Open the `.ipynb` links above on GitHub: figures and outputs are already saved.
-If the notebook viewer is unavailable, download the repository and open the matching
-files via [reports/index.html](reports/index.html) in a browser. These HTML reports contain their plotted
-outputs. Code is hidden in the reader reports and retained in full in the notebooks.
-They are downloadable files, not a public website; no public Pages deployment
-has been enabled.
-
-## Reproduce the figures
-
-Use Python 3.11 or newer in a fresh environment:
-
-```sh
-python -m venv .venv
-# Activate .venv using the command for your operating system.
-python -m pip install -r requirements.txt
-python scripts/execute_notebooks.py
-python -m unittest discover -s tests -v
+```bash
+pip install -r requirements.txt
+jupyter lab
 ```
 
-Alternatively run `jupyter lab` and execute a notebook from top to bottom. All paths
-resolve relative to this repository. **No solver, PyPSA installation, private source
-folder, API key or network download is required to reproduce the plotted results.**
-This reproduces the presentation from the included snapshots, not the original
-optimisation. Requirements describe a compatible environment; the exact environment
-used for this release is recorded in [docs/execution_environment.json](docs/execution_environment.json).
+Run from this repository's root. Saved chart outputs are viewable on GitHub; run the notebooks for interactive maps. No optimiser or original model checkout is required.
 
-## Repository guide
+## Results basis
 
-```text
-notebooks/   Three executed research narratives
-data/        Compact source snapshots and documented aggregations
-assets/      Reusable charts and framework diagram
-reports/     HTML versions, with saved outputs
-src/         Small, inspectable plotting helpers
-scripts/     Snapshot preparation, notebook sources and execution
-tests/       Accounting, scope and output checks
-docs/        Scope, units, limitations and SHA-256 source provenance
-```
+Five primary areas, 28,876 homes. The compact `data/` exports come from the saved study results on 7 October 2026; they include derived substation aggregates, not raw building records. The optimisation used 12 representative days per area. Reconstructed annual profiles repeat those days and are not a chronological replay. Dispatch units are MW; storage MWh; annual flows GWh.
 
-`scripts/prepare_snapshot.py` documents the transformations used to package the
-original research outputs. Rebuilding those snapshots requires the author's source
-folders; **viewing or executing these notebooks does not**. `scripts/build_notebooks.py`
-is the editable narrative source; rebuilding clears outputs until execution is run.
+Costs retain mixed monetary bases. Existing assets are treated as paid for in 2025; 2035 costs include annualised investment. The year-to-year gap includes changed prices and grid emissions. DH routes and sites are candidate screening geometry, not final pipe selections. See [data provenance](data/provenance.json).
 
-## What remains in development
+Basemaps © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), ODbL. The source tile mosaic is bundled for offline chart previews; interactive maps request OSM tiles.
 
-EVs and non-residential demand are not presented as completed analysis. The next
-milestones are the latest-demand rerun, consistent cost years, joint upstream network
-constraints, full-scope replay and then multi-period pathways. “Whole system” describes
-the integration within the declared model boundary—not a claim that every sector,
-constraint or uncertainty has already been represented.
-
-Read the [scope, caveats and unit conventions](docs/scope.md) before using the numbers.
-Source hashes and transformations are in [the provenance manifest](docs/source_manifest.json).
-Keep source-derived data private until licensing and publication permissions are reviewed.
-
----
-
-**EnerMap → PyPSA-LAEP · Research snapshot packaged 27 September 2026**
-
-![EnerMap](assets/EnerMap_logo.png)
+The previous code remains recoverable in Git history. This repository now presents results only.

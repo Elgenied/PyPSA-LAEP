@@ -1,0 +1,136 @@
+area,sector,item,gwh
+SHALFORD,electricity,household electricity,7.933719637317855
+SHALFORD,electricity,non-residential,11.195137638935488
+SHALFORD,electricity,non-residential heat pumps,0.783005930466547
+SHALFORD,electricity,heat pumps,5.841064240654923
+SHALFORD,electricity,direct electric,0.042047137232079396
+SHALFORD,electricity,heat-network plant,0.02647941779837997
+SHALFORD,electricity,electric vehicles,2.501279946023489
+SHALFORD,electricity,rooftop PV,5.5301610352251425
+SHALFORD,electricity,into batteries,1.2255067693050586e-07
+SHALFORD,electricity,from batteries,1.1542839209705076e-07
+SHALFORD,electricity,grid import,23.19457344967217
+SHALFORD,heat,gas boiler kept,1.097349362283041e-06
+SHALFORD,heat,communal gas kept,7.486444715133686e-08
+SHALFORD,heat,oil/LPG kept,2.984607708217396e-07
+SHALFORD,heat,direct electric,0.021051403505207667
+SHALFORD,heat,direct electric kept,0.020995733726871732
+SHALFORD,heat,air-source heat pump,13.290514982470294
+SHALFORD,heat,ASHP kept,0.6797398981780162
+SHALFORD,heat,high-temperature ASHP,1.7439833186228475
+SHALFORD,heat,ASHP + underfloor,1.946389139576651e-06
+SHALFORD,heat,ground-source HP,0.19222149690457183
+SHALFORD,heat,shared ground loop,6.954453295477542
+SHALFORD,heat,communal ASHP (flats),1.2269674192917017
+SHALFORD,heat,district heat,0.06960444558807126
+SHALFORD,heat,from the fabric,4.701912871279271
+SHALFORD,heat,from hot-water stores,1.780096661600969
+SHALFORD,heat,useful heat demand,23.614882019469434
+GUILDFORD 33/6.6KV,electricity,household electricity,7.7183690613599385
+GUILDFORD 33/6.6KV,electricity,non-residential,14.604256088571626
+GUILDFORD 33/6.6KV,electricity,non-residential heat pumps,1.149707710290996
+GUILDFORD 33/6.6KV,electricity,heat pumps,4.68474859157435
+GUILDFORD 33/6.6KV,electricity,direct electric,0.07207205188773469
+GUILDFORD 33/6.6KV,electricity,heat-network plant,0.412847177132294
+GUILDFORD 33/6.6KV,electricity,electric vehicles,2.788194243168259
+GUILDFORD 33/6.6KV,electricity,rooftop PV,7.2393799942484955
+GUILDFORD 33/6.6KV,electricity,into batteries,6.747217070976075e-07
+GUILDFORD 33/6.6KV,electricity,from batteries,6.300639010679235e-07
+GUILDFORD 33/6.6KV,electricity,grid import,24.64875546785756
+GUILDFORD 33/6.6KV,heat,gas boiler kept,1.0062059290088916e-05
+GUILDFORD 33/6.6KV,heat,communal gas kept,5.775478440397406e-07
+GUILDFORD 33/6.6KV,heat,oil/LPG kept,7.803105388354377e-07
+GUILDFORD 33/6.6KV,heat,direct electric,0.055417007778123466
+GUILDFORD 33/6.6KV,heat,direct electric kept,0.016655044109611244
+GUILDFORD 33/6.6KV,heat,air-source heat pump,1.8391676794062308
+GUILDFORD 33/6.6KV,heat,ASHP kept,0.12617656624825122
+GUILDFORD 33/6.6KV,heat,high-temperature ASHP,6.079775735127745
+GUILDFORD 33/6.6KV,heat,ASHP + underfloor,8.755686421847417e-06
+GUILDFORD 33/6.6KV,heat,ground-source HP,0.058700953722223594
+GUILDFORD 33/6.6KV,heat,shared ground loop,6.825776550479269
+GUILDFORD 33/6.6KV,heat,communal ASHP (flats),2.369339386253431
+GUILDFORD 33/6.6KV,heat,district heat,1.0698338287112674
+GUILDFORD 33/6.6KV,heat,from the fabric,2.0450447911509673
+GUILDFORD 33/6.6KV,heat,from hot-water stores,1.9973115387818243
+GUILDFORD 33/6.6KV,heat,useful heat demand,17.99996149868155
+GUILDFORD B,electricity,household electricity,31.637120169069778
+GUILDFORD B,electricity,non-residential,23.925107683540986
+GUILDFORD B,electricity,non-residential heat pumps,2.521124218011302
+GUILDFORD B,electricity,heat pumps,16.68203770535871
+GUILDFORD B,electricity,direct electric,0.14875716115038728
+GUILDFORD B,electricity,heat-network plant,4.388729389085258
+GUILDFORD B,electricity,electric vehicles,11.179641218057364
+GUILDFORD B,electricity,rooftop PV,18.60445168210926
+GUILDFORD B,electricity,into batteries,3.8843434158424284e-07
+GUILDFORD B,electricity,from batteries,3.6787264970201005e-07
+GUILDFORD B,electricity,grid import,73.11260855111931
+GUILDFORD B,heat,gas boiler kept,5.6207545943632694e-06
+GUILDFORD B,heat,communal gas kept,1.6683120657385085e-07
+GUILDFORD B,heat,oil/LPG kept,4.1244897074577353e-07
+GUILDFORD B,heat,direct electric,0.11098817682676716
+GUILDFORD B,heat,direct electric kept,0.03776898432362015
+GUILDFORD B,heat,air-source heat pump,8.233735154764277
+GUILDFORD B,heat,ASHP kept,0.320225883048395
+GUILDFORD B,heat,high-temperature ASHP,18.16001758766973
+GUILDFORD B,heat,ASHP + underfloor,7.474615426412079e-06
+GUILDFORD B,heat,ground-source HP,0.08643884824105445
+GUILDFORD B,heat,shared ground loop,36.07697771898617
+GUILDFORD B,heat,communal ASHP (flats),5.0309114696214525
+GUILDFORD B,heat,district heat,11.40728167227147
+GUILDFORD B,heat,from the fabric,9.598186753486523
+GUILDFORD B,heat,from hot-water stores,7.6986313348759605
+GUILDFORD B,heat,useful heat demand,76.90519914438427
+GUILDFORD A,electricity,household electricity,19.43041008481802
+GUILDFORD A,electricity,non-residential,35.169535725104446
+GUILDFORD A,electricity,non-residential heat pumps,3.7730621170296352
+GUILDFORD A,electricity,heat pumps,10.827498550396433
+GUILDFORD A,electricity,direct electric,0.823143008832436
+GUILDFORD A,electricity,heat-network plant,2.1565043811595532
+GUILDFORD A,electricity,electric vehicles,6.541673150743916
+GUILDFORD A,electricity,rooftop PV,17.873005454804062
+GUILDFORD A,electricity,into batteries,7.725148710632624e-07
+GUILDFORD A,electricity,from batteries,7.346766645493571e-07
+GUILDFORD A,electricity,grid import,61.987020580089464
+GUILDFORD A,heat,gas boiler kept,9.818062723943237e-06
+GUILDFORD A,heat,communal gas kept,5.505091497053725e-07
+GUILDFORD A,heat,oil/LPG kept,1.5003055504567679e-06
+GUILDFORD A,heat,direct electric,0.5847721057383694
+GUILDFORD A,heat,direct electric kept,0.23837090309406633
+GUILDFORD A,heat,air-source heat pump,10.740756010471124
+GUILDFORD A,heat,ASHP kept,0.4485742606374351
+GUILDFORD A,heat,high-temperature ASHP,9.178856227588494
+GUILDFORD A,heat,ASHP + underfloor,1.1850335075317363e-05
+GUILDFORD A,heat,ground-source HP,0.15377962587085378
+GUILDFORD A,heat,shared ground loop,18.905369972581955
+GUILDFORD A,heat,communal ASHP (flats),4.119042809513274
+GUILDFORD A,heat,district heat,5.4151991835343765
+GUILDFORD A,heat,from the fabric,6.096886444225121
+GUILDFORD A,heat,from hot-water stores,4.494459822011813
+GUILDFORD A,heat,useful heat demand,48.35543205975393
+MERROW,electricity,household electricity,37.517189681947144
+MERROW,electricity,non-residential,11.893538839463288
+MERROW,electricity,non-residential heat pumps,1.5085996488994056
+MERROW,electricity,heat pumps,26.671402090666
+MERROW,electricity,direct electric,0.34824592381208824
+MERROW,electricity,heat-network plant,0.05151062951233709
+MERROW,electricity,electric vehicles,13.238921308712868
+MERROW,electricity,rooftop PV,17.501848950864147
+MERROW,electricity,into batteries,6.620995812109233e-07
+MERROW,electricity,from batteries,6.269399329281758e-07
+MERROW,electricity,grid import,74.91652648007884
+MERROW,heat,gas boiler kept,1.1179156044434899e-05
+MERROW,heat,communal gas kept,6.75965059454756e-07
+MERROW,heat,oil/LPG kept,1.6182728394943467e-06
+MERROW,heat,direct electric,0.20885050956702075
+MERROW,heat,direct electric kept,0.1393954142450675
+MERROW,heat,air-source heat pump,42.37080212418603
+MERROW,heat,ASHP kept,1.102244650401479
+MERROW,heat,high-temperature ASHP,14.898623453510561
+MERROW,heat,ASHP + underfloor,1.4489466193052759e-05
+MERROW,heat,ground-source HP,0.526820471448457
+MERROW,heat,shared ground loop,43.53641521024672
+MERROW,heat,communal ASHP (flats),7.023026824970985
+MERROW,heat,district heat,0.13439125958243348
+MERROW,heat,from the fabric,21.019164535530944
+MERROW,heat,from hot-water stores,9.403075074680512
+MERROW,heat,useful heat demand,107.15667393655438

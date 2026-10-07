@@ -1,0 +1,91 @@
+{
+  "export_date": "2026-10-07",
+  "source": "Saved PyPSA-LAEP results; no optimisation rerun",
+  "cases": {
+    "primary_merrow_baseline2025_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.000000000002,
+      "summary_sha256": "832e23e7ce12fe6ead0f61be8f836eb272c2350b0bb4cf09649b3bcdf2994911"
+    },
+    "primary_guildford_b_baseline2025_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.0,
+      "summary_sha256": "e9843551aeb971d695defed4f8ff3c5cd758df039912c27531d94c8bf16034c2"
+    },
+    "primary_guildford_a_baseline2025_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.00000000002,
+      "summary_sha256": "1ab3ae6d981a38edb8232d3b7a6e16fb3a3840fe3bd049aad854ee8e7a3fcb2e"
+    },
+    "primary_shalford_baseline2025_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.000000000002,
+      "summary_sha256": "95d6fd975d72b8953e437ebba8fbdbd1393752865ebb9eea241ab5920fa7ef0f"
+    },
+    "primary_guildford_33_6_6kv_baseline2025_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.00000000001,
+      "summary_sha256": "6c27e79df73f71ca63f122cc43b70c637e65230f7f3389815f95848601d40c4b"
+    },
+    "primary_shalford_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.000000000002,
+      "summary_sha256": "9e408c8dc159bcda135eacfbd124579fb01b5ad3c653484ab3e33f935cb68271"
+    },
+    "primary_guildford_33_6_6kv_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.00000000001,
+      "summary_sha256": "7a898507be5d39e9e7e0f6143049d0d233d80e7aa1415dfe47142a6461982b5f"
+    },
+    "primary_merrow_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.000000000002,
+      "summary_sha256": "81948e299e6847307593c4d5c278f81d9dd8876e20314a4a07052c48234e757c"
+    },
+    "primary_guildford_b_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.0,
+      "summary_sha256": "74eea72bf7fd80f499723cdd100d92d3eac8938921b4dd60e98cc382f95273ca"
+    },
+    "primary_guildford_a_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.00000000002,
+      "summary_sha256": "c8f0f1f34c31d7f48d7d1e43d1b72efde3bcdab4f19f599677269afe786d2a20"
+    },
+    "primary_shalford_dh_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.000000000002,
+      "summary_sha256": "fd61cc43a2d7f16738255d8ac705529d22031a7970da6a880cbe9f5cc7a01723"
+    },
+    "primary_guildford_33_6_6kv_dh_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.00000000001,
+      "summary_sha256": "acc8f757601cdc661be0e5a97d38e3f08a4c69bf0b3ffc96e85925c98a4cf79d"
+    },
+    "primary_guildford_b_dh_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.0,
+      "summary_sha256": "4aae82bc2f9b22e9fddcbf8d787919dcb8b0350e8ed8879f3677d05344e23e61"
+    },
+    "primary_guildford_a_dh_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.00000000002,
+      "summary_sha256": "d22b69310881b924eb5a6bdbb5730e87343488e616744bd161149ea54fd2eacd"
+    },
+    "primary_merrow_dh_td": {
+      "snapshots": 288,
+      "weighted_hours": 8760.000000000002,
+      "summary_sha256": "68c61fa43cc54c0b1dffa4a525f7ab61ea5199000484a45cc7b3660855df27bc"
+    }
+  },
+  "units": {
+    "dispatch": "MW",
+    "storage": "MWh",
+    "annual_energy": "GWh",
+    "costs": "million GBP/year"
+  },
+  "time": "Representative-day snapshots with weights. Reconstructed imports are repeated representative periods on the 2021 model calendar, not a chronological replay.",
+  "maps": "OSM basemap; substation-level results. Candidate DH routes/sites are upstream screening geometry, not optimised pipe selections.",
+  "accounting": "Costs retain mixed monetary bases. 2025 kept assets are sunk; 2035 kept/replaced assets annualised.",
+  "source_model_commit": "a69ac6289975197873373de1092ef0e547870da2"
+}

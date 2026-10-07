@@ -1,0 +1,70 @@
+{
+  "gas_boiler_existing": {
+    "label": "gas boiler kept",
+    "colour": "#7f7f7f"
+  },
+  "gas_communal_existing": {
+    "label": "communal gas kept",
+    "colour": "#525252"
+  },
+  "other_fossil_existing": {
+    "label": "oil/LPG kept",
+    "colour": "#8c564b"
+  },
+  "biomass_boiler": {
+    "label": "biomass boiler",
+    "colour": "#637939"
+  },
+  "resistive": {
+    "label": "direct electric",
+    "colour": "#ff7f0e"
+  },
+  "resistive_existing": {
+    "label": "direct electric kept",
+    "colour": "#fdae6b"
+  },
+  "storage_heater": {
+    "label": "storage heaters",
+    "colour": "#e6550d"
+  },
+  "ashp_hybrid_gas": {
+    "label": "ASHP + gas boiler hybrid",
+    "colour": "#e377c2"
+  },
+  "ashp": {
+    "label": "air-source heat pump",
+    "colour": "#1f77b4"
+  },
+  "ashp_existing": {
+    "label": "ASHP kept",
+    "colour": "#6baed6"
+  },
+  "ashp_ht": {
+    "label": "high-temperature ASHP",
+    "colour": "#08306b"
+  },
+  "ashp_topup": {
+    "label": "ASHP + electric top-up",
+    "colour": "#bcbd22"
+  },
+  "ashp_underfloor": {
+    "label": "ASHP + underfloor",
+    "colour": "#17becf"
+  },
+  "gshp": {
+    "label": "ground-source HP",
+    "colour": "#2ca02c"
+  },
+  "gshp_shared_loop": {
+    "label": "shared ground loop",
+    "colour": "#98df8a"
+  },
+  "communal_ashp": {
+    "label": "communal ASHP (flats)",
+    "colour": "#9467bd"
+  },
+  "dh_connection": {
+    "label": "district heat",
+    "colour": "#d62728"
+  }
+}
