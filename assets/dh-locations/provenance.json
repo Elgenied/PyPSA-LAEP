@@ -1,0 +1,44 @@
+[
+  {
+    "scenario": "primary_guildford_b_dh_td",
+    "piece": "zone_0_guildford_b",
+    "assigned_buildings": 429,
+    "assigned_dwellings": 480.0,
+    "lp_connected_dwellings": 479.9302595409016,
+    "candidate_site_bng": [
+      499658.6,
+      150089.7
+    ],
+    "note": "Candidate screening routes, not optimised final pipes. Building allocation is rounded from LP shares. No model rerun.",
+    "file": "guildford_b_zone0_dh.png",
+    "basemap": "OpenStreetMap contributors, ODbL"
+  },
+  {
+    "scenario": "primary_guildford_b_dh_td",
+    "piece": "zone_3_guildford_b",
+    "assigned_buildings": 470,
+    "assigned_dwellings": 526.0,
+    "lp_connected_dwellings": 525.7617385823462,
+    "candidate_site_bng": [
+      498603.6,
+      151314.7
+    ],
+    "note": "Candidate screening routes, not optimised final pipes. Building allocation is rounded from LP shares. No model rerun.",
+    "file": "guildford_b_zone3_dh.png",
+    "basemap": "OpenStreetMap contributors, ODbL"
+  },
+  {
+    "scenario": "primary_guildford_b_dh_td",
+    "piece": "zone_4_guildford_b",
+    "assigned_buildings": 359,
+    "assigned_dwellings": 373.0,
+    "lp_connected_dwellings": 373.0836245669792,
+    "candidate_site_bng": [
+      497984.6,
+      151832.9
+    ],
+    "note": "Candidate screening routes, not optimised final pipes. Building allocation is rounded from LP shares. No model rerun.",
+    "file": "guildford_b_zone4_dh.png",
+    "basemap": "OpenStreetMap contributors, ODbL"
+  }
+]
